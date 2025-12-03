@@ -76,7 +76,7 @@
             margin-bottom: 40px;
             margin-top: 0;
             position: relative;
-            font-family: var( --font-family-Quentin);
+            font-family: var( --font-family-main);
             color: var(--color-primary);
             line-height: 80px;
 
@@ -136,105 +136,7 @@ section.hero.banerBlock {
   display: flex;
 
 
-  /* .content {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
-    gap: 40px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-
-    @media (max-width: 900px) {
-      grid-template-columns: 1fr;
-      gap: 32px;
-    }
-  }
-
-  .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 420px;
-
-    .hero__tag {
-      font-size: 14px;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: #f5f5f5;
-      opacity: 0.9;
-      margin-bottom: 12px;
-    }
-
-    .hero__title {
-      font-size: clamp(42px, 5vw, 64px);
-      line-height: 1.02;
-      font-weight: 800;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-
-    .hero__desc {
-      font-size: 14px;
-      line-height: 1.6;
-      color: #e3e3e3;
-      max-width: 360px;
-      margin-bottom: 24px;
-    }
-
-    .hero__cta {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-  }
-
-  .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-
-  .bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 24px;
-  }
-
-  .nav {
-    display: flex;
-    gap: 12px;
-  }
-
-  .arrow {
-    width: 40px;
-    height: 40px;
-    border-radius: 999px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background 0.2s ease, transform 0.1s ease;
-
-    span {
-      font-size: 16px;
-    }
-
-    &:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-1px);
-    }
-  }
-
-  .index {
-    font-size: 20px;
-    letter-spacing: 0.15em;
-  } */
+ 
 }
 
 /* Slider cards */
